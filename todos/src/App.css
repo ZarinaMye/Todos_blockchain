@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.todoList {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.todoTask {
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px;
+  list-style-type: none;
+  min-width: 180px;
+}
+
+.taskDone {
+  color: green;
+  font-weight: bold;
+}
+
+.taskUndone {
+  color: red;
+}
